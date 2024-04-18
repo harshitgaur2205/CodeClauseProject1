@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nav-bar-select {
+        @apply w-[80%] max-xl:w-auto px-10 p-3 flex items-center border-2 border-gray-400 rounded-full border-hidden hover:border-solid hover:bg-white hover:shadow-md;
+    }
+}
